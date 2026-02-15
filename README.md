@@ -32,6 +32,7 @@ The project visualizes the displacement over time for both methods and compares 
 ## 2. Libraries Required
 `
 import numpy as np`
+
 `import matplotlib.pyplot as plt`
 
 ## 3. Features
