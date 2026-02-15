@@ -10,28 +10,6 @@ A simple spring-mass system is modeled using Hooke’s law:
 
 !(NUMERICAL IMAGE.png)
 
-𝑚
-𝑑
-2
-𝑥
-𝑑
-𝑡
-2
-+
-𝑘
-𝑥
-=
-0
-m
-dt
-2
-d
-2
-x
-	​
-
-+kx=0
-
 where:
 
 𝑚
