@@ -8,7 +8,7 @@ This project simulates a spring-mass system using numerical integration methods 
 
 A simple spring-mass system is modeled using Hooke’s law:
 
-![Hooke's Law][NUMERICAL IMAGE.png]
+![Hooke's Law](NUMERICAL IMAGE.png)
 
 𝑚
 𝑑
