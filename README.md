@@ -13,13 +13,13 @@ A simple spring-mass system is modeled using Hooke’s law:
 where:
 
 𝑚
-m = mass (kg)
+: m = mass (kg)
 
 𝑘
-k = spring constant (N/m)
+: k = spring constant (N/m)
 
 𝑥
-x = displacement (m)
+: x = displacement (m)
 
 Numerical integration methods are used to approximate the motion:
 
