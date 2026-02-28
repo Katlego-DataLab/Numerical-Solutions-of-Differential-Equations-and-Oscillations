@@ -9,7 +9,7 @@
 
 ## Executive Summary
 
-This project implements and compares two numerical integration techniques,  the **Euler Method** and the **2nd-Order Runge-Kutta (RK2)** method to solve the second-order differential equation governing a simple spring-mass system.
+This project implements and compares two numerical integration techniques,  the **Euler Method** and the **2nd-Order Runge-Kutta (RK2)** method, to solve the second-order differential equation governing a simple spring-mass system.
 
 The goal is to evaluate:
 
@@ -25,9 +25,7 @@ This project demonstrates how numerical methods approximate physical systems and
 
 The system follows Hooke’s Law:
 
-[
-m \frac{d^2x}{dt^2} + kx = 0
-]
+`m d^2x/dt^2 + kx = 0`
 
 Where:
 
