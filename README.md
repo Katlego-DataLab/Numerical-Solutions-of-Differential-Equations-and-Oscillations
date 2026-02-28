@@ -1,7 +1,5 @@
 # Numerical Simulation of Oscillatory Systems
 
-## Euler vs Runge-Kutta (RK2) for a Spring-Mass System
-
 **Author:** Katlego Mathebula
 **Tech Stack:** Python · NumPy · Matplotlib
 **Project Type:** Numerical Methods & Differential Equations
