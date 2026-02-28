@@ -47,9 +47,6 @@ Since exact solutions are known, this system is ideal for testing numerical meth
 ## Conversion to First-Order System
 
 To apply numerical methods, the second-order ODE is converted into two first-order equations:
-$$
-\frac{dx}{dt} = v
-$$
 
 $$
 \frac{dv}{dt} = -\frac{k}{m}x
