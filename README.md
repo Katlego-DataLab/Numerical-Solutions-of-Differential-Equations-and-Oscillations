@@ -1,5 +1,4 @@
 # Numerical Simulation of Oscillatory Systems
-
 **Author:** Katlego Mathebula
 **Tech Stack:** Python · NumPy · Matplotlib
 **Project Type:** Numerical Methods & Differential Equations
