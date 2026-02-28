@@ -25,7 +25,9 @@ This project demonstrates how numerical methods approximate physical systems and
 
 The system follows Hooke’s Law:
 
-`m d^2x/dt^2 + kx = 0`
+$$
+m \frac{d^2x}{dt^2} + kx = 0
+$$
 
 Where:
 
@@ -48,14 +50,13 @@ Since exact solutions are known, this system is ideal for testing numerical meth
 ## Conversion to First-Order System
 
 To apply numerical methods, the second-order ODE is converted into two first-order equations:
-
-[
+$$
 \frac{dx}{dt} = v
-]
+$$
 
-[
+$$
 \frac{dv}{dt} = -\frac{k}{m}x
-]
+$$
 
 This allows iterative time-stepping solutions.
 
@@ -65,14 +66,13 @@ This allows iterative time-stepping solutions.
 ### 1. Euler Method (First-Order)
 
 The Euler method updates position and velocity using:
-
-[
+$$
 x_{n+1} = x_n + dt \cdot v_n
-]
+$$
 
-[
+$$
 v_{n+1} = v_n - dt \cdot \frac{k}{m}x_n
-]
+$$
 
 Characteristics:
 
@@ -86,14 +86,13 @@ Characteristics:
 
 RK2 improves accuracy using midpoint-style slope estimation:
 
-[
-x_{n+1} = x_n + \frac{dt}{2}(k1 + k2)
-]
+$$
+x_{n+1} = x_n + \frac{dt}{2}(k_1 + k_2)
+$$
 
-[
-v_{n+1} = v_n + \frac{dt}{2}(l1 + l2)
-]
-
+$$
+v_{n+1} = v_n + \frac{dt}{2}(l_1 + l_2)
+$$
 Characteristics:
 
 - Second-order accuracy
