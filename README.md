@@ -37,9 +37,9 @@ This represents a **simple harmonic oscillator**.
 
 The analytical solution is sinusoidal motion with angular frequency:
 
-[
+$$
 \omega = \sqrt{\frac{k}{m}}
-]
+$$
 
 Since exact solutions are known, this system is ideal for testing numerical method performance.
 
